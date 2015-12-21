@@ -1,5 +1,4 @@
-# effective-cplusplus
-Reading notes for the book "Effective C++"
+# Reading notes for the book "Effective C++"
 
 ## Introduction
   - Declaration
