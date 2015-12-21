@@ -19,9 +19,9 @@ Reading notes for the book "Effective C++"
     * Object-Oriented C++
     * Template C++
     * The STL
-      ** Item2: Prefer consts, enums, and inlines (compiler) to #defines (preprocessor).
-      ** Simple constants: prefer const objects or enums to #defines.
-      ** Function-like macros: prefer inline functions to #defines.
+  - Item2: Prefer consts, enums, and inlines (compiler) to #defines (preprocessor).
+    * Simple constants: prefer const objects or enums to #defines.
+    * Function-like macros: prefer inline functions to #defines.
   - Item3: Use const whenever possible. *
   - Item4: Make sure that objects are initialized before they're used.
   - Manually initialize objects of built-in type.
