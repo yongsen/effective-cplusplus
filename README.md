@@ -8,10 +8,10 @@ Reading notes for the book "Effective C++"
     * Default constructor
     * Copy constructor
     * Copy assignment operator
-      STL: containers, iterators, algorithms, and related functionality.
       ** Undefined  behavior
       ** Interface
       ** Client
+      *STL: containers, iterators, algorithms, and related functionality*
 
 ## Chapter 1 Accustoming yourself to C++
   - Item1:  Vies C++ as a federation of languages.
