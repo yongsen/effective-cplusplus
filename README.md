@@ -39,3 +39,4 @@
   - Item9: Never call virtual functions during construction or destruction.
     * Don’t call virtual functions during construction or destruction, be- cause such calls will never go to a more derived class than that of the currently executing constructor or destructor.
   - Item10: Have assignment operators return a reference to *this.
+  - Item11: Handle assignment to self in `operator=`.
