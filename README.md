@@ -24,8 +24,8 @@
     * Function-like macros: prefer inline functions to #defines.
   - Item3: Use const whenever possible. *
   - Item4: Make sure that objects are initialized before they're used.
-  - Manually initialize objects of built-in type.
-  - In a constructor, prefer use of the member initialization list to assignment inside the body of the constructor. List data members in the initialization list in the same order they're declared in the class.
+    * Manually initialize objects of built-in type.
+    * In a constructor, prefer use of the member initialization list to assignment inside the body of the constructor. List data members in the initialization list in the same order they're declared in the class.
 
 ## Chapter 2 Constructors, Destructors, and Assignment Operators
   - Item5: Know what functions C++ silently writes and calls.
