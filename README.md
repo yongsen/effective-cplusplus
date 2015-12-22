@@ -38,5 +38,9 @@
   - Item8: Prevent exceptions from leaving destructors. *
   - Item9: Never call virtual functions during construction or destruction.
     * Don’t call virtual functions during construction or destruction, be- cause such calls will never go to a more derived class than that of the currently executing constructor or destructor.
-  - Item10: Have assignment operators return a reference to *this.
+  - Item10: Have assignment operators return a reference to `*this`.
   - Item11: Handle assignment to self in `operator=`.
+    * Make sure operator= is well-behaved when an object is assigned to itself.
+    * Make sure that any function operating on more than one object be- haves correctly if two or more of the objects are the same.
+  - Item12: Copy all parts of an object.
+  - 
