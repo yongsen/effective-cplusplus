@@ -35,3 +35,7 @@
   - Item7: Declare destructors virtual in polymorphic base classes.
     * Polymorphic base classes should declare virtual destructors. If a class has any virtual functions, it should have a virtual destructor.
     * Classes not designed to be base classes or not designed to be used polymorphically should not declare virtual destructors.
+  - Item8: Prevent exceptions from leaving destructors. *
+  - Item9: Never call virtual functions during construction or destruction.
+    * Don’t call virtual functions during construction or destruction, be- cause such calls will never go to a more derived class than that of the currently executing constructor or destructor.
+  - Item10: Have assignment operators return a reference to *this.
