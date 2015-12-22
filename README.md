@@ -33,3 +33,5 @@
   - Item6: Explicitly disallow the use of compiler-generated functions you do not want.
     * Compilers may implicitly generate a class’s default constructor, copy constructor, copy assignment operator, and destructor.
   - Item7: Declare destructors virtual in polymorphic base classes.
+    * Polymorphic base classes should declare virtual destructors. If a class has any virtual functions, it should have a virtual destructor.
+    * Classes not designed to be base classes or not designed to be used polymorphically should not declare virtual destructors.
