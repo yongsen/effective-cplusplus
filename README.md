@@ -47,3 +47,10 @@
     * Don’t try to implement one of the copying functions in terms of the other. Instead, put common functionality in a third function that both call.
 
 ## Chapter 3 Resource Management
+  - Itme13: Use objects to manage resources.
+  - Item14: Think carefully about copying behavior in resource-managing classes.
+  - Item15: Provide access to raw resources in resource-managing classes.
+  - Item16: Use the same form in corresponding uses of `new` and `delete`.
+  - Item17: Store `new`ed objects in smart pointers in standalone statements.
+  
+## Chapter 4 Designs and Declarations
