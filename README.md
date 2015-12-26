@@ -54,3 +54,16 @@
   - Item17: Store `new`ed objects in smart pointers in standalone statements.
   
 ## Chapter 4 Designs and Declarations
+  - Item18: Make interfaces easy to use correctly and hard to use incorrectly.
+  - Item19: Treat class design as type design.
+  - Item20: Prefer pass-by-reference-to-`const` to pass-by-value.
+    * The rule doesn’t apply to built-in types and STL iterator and func- tion object types. For them, pass-by-value is usually appropriate.
+  - Item21: Don't try to return a reference when you must return an object.
+    * Never return a pointer or reference to a local stack object, a refer- ence to a heap-allocated object, or a pointer or reference to a local static object if there is a chance that more than one such object will be needed.
+  - Item22: Declare data members `private`.
+  - Item23: Prefer non-member non-friend functions to member functions.
+  - Item24: Declare non-member functions when type conversions should apply to all parameters.
+  - Item25: Consider support for a non-throwing `swap`.
+  
+## Chapter 5 Implementations
+  - Item26:
