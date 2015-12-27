@@ -66,4 +66,13 @@
   - Item25: Consider support for a non-throwing `swap`.
   
 ## Chapter 5 Implementations
-  - Item26:
+  - Item26: Postpone variable definitions as long as possible.
+  - Item27: Minimize casting.
+  - Item28: Avoid returning "handles" to object internals.
+    * Avoid returning handles (references, pointers, or iterators) to object internals. Not returning handles increases encapsulation, helps const member functions act const, and minimizes the creation of dangling handles.
+  - Item29: Strive for exception-safe code. *
+  - Item30: Understand the ins and outs of inlining.
+    * Limit most inlining to small, frequently called functions.
+  - Item31: Minimize compilation dependencies between files.
+  
+## Chapter 6 Inheritance and Object
