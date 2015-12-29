@@ -75,4 +75,8 @@
     * Limit most inlining to small, frequently called functions.
   - Item31: Minimize compilation dependencies between files.
   
-## Chapter 6 Inheritance and Object
+## Chapter 6 Inheritance and Object-Oriented Design
+  - Item32: Make sure public inheritance models "is-a".
+    * Everything that applies to base classes must also apply to derived classes, because every derived class object is a base class object.
+  - Item33: Avoid hiding inherited names.
+  - 
